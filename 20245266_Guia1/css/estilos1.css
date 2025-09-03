@@ -1,0 +1,31 @@
+/* Estilos extraídos desde estilos_embebidos.html */
+body {
+    background-color: lightblue;
+}
+
+.contenedor {
+    font-size: 20px;
+}
+
+.contenedor h2 {
+    text-decoration: underline;
+    color: white;
+}
+
+.destacado {
+    color: navy;
+    font-weight: bold;
+}
+
+.mayus {
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.small {
+    font-size: 12px;
+}
+
+span {
+    font-style: italic;
+}
