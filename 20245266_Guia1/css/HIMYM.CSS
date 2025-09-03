@@ -1,4 +1,4 @@
-/* HIMYM - hoja de estilo muy simple */
+
 
 * { box-sizing: border-box; }
 body {
@@ -9,7 +9,6 @@ body {
 	line-height: 1.4;
 }
 
-/* Header (usa el id que está en el HTML) */
 #page-header {
 	background: #ffffff;
 	border-bottom: 1px solid #ddd;
@@ -21,7 +20,7 @@ body {
 
 #main-content { max-width: 860px; margin: 18px auto; padding: 0 12px; }
 
-/* Tarjetas simples */
+
 .card {
 	background: #fff;
 	padding: 12px;
@@ -51,7 +50,7 @@ sinopsis p {
     font-style: italic; color:#333;
  }
 
-/* Tabla simple y clara */
+
 .simple-table { 
     width:100%; border-collapse:collapse; 
 }
