@@ -11,11 +11,13 @@ body{
     text-align: center;
     color: #2980b9;
     margin-top: 20px;
+    font-size: 3em;
 }
 .sub-title{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #3498db;
+    font-size: 2em;
     margin-top: 10px;
 }
 .intro-text{
