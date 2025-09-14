@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: steelblue;
+color: #eee;
+font-size: sans-serif;
+text-align: center;
+}
+#tablero{
+background-color: white;
+height: 400px;
+width: 400px;
+margin: auto;
+}
+
+#tablero p{
+background-color: black;
+color: white;
+float: left;
+font-size: 36px;
+height: 50px;
+width: 50px;
+vertical-align: middle;
+}
+
+
+#tablero .filaImpar p:nth-child(odd) {
+    background-color: white;
+    
+}
+
+#tablero .filaPar p:nth-child(even) {
+    background-color: white;
+
+}
+
+
+#tablero .filaPar p:nth-child(odd) {
+    background-color: black;
+
+}
