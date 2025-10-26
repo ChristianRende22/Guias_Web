@@ -1,41 +1,170 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guias- Christian Renderos</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio — Christian Renderos</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Guia 1 - Christian Renderos</h1>
-        <nav>
-            <ul>
-                <li><a href="20245266_Guia1/estilos_embebidos.html">Ejemplo 1</a></li>
-                <li><a href="20245266_Guia1/Ejemplo2.html">Ejemplo 2</a></li>
-                <li><a href="20245266_Guia1/Paises.html">Ejemplo Paises</a></li>
-                <li><a href="20245266_Guia1/HIMYM.html">Ejemplo Serie</a></li>
-            </ul>
-        </nav>
-    </header>
-    <header>
-        <h1>Guia 2 - Christian Renderos</h1>
-        <nav>
-            <ul>
-                <li><a href="20245266_Guia2/Biografia.html">Mi Biografía</a></li>
-                <li><a href="20245266_Guia2/peliculas.html">Películas</a></li>
-                <li><a href="20245266_Guia2/tablero.html">Tablero</a></li>
-            </ul>
-        </nav>
-    </header>
-    <header>
-        <h1>Guia 3 - Christian Renderos</h1>
-        <nav>
-            <ul>
-                <li><a href="20245266_Guia3/oscares.html">Nominaciones Oscares</a></li>
-                <li><a href="20245266_Guia3/analisis.html">Ejemplo Z-index</a></li>
-                <li><a href="20245266_Guia3/index.html">Agencia de viajes</a></li>
-                <li><a href="20245266_Guia3/menu_horizontal.html">Ejemplo menu horizontal</a></li>
-            </ul>
-        </nav>
+
+  <header class="top">
+    <h1>Portafolio estudiantil</h1>
+    <nav class="tabs">
+      <a href="#guias">Guías</a>
+      <a href="#foda">FODA</a>
+      <a href="#curso">Informacion materia</a>
+      <a href="#personal">Informacion personal</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <!-- Perfil -->
+    <section id="personal" class="card">
+      <div class="perfil">
+        <img src="./20245266_Guia2/img/fotoMia.jpg" alt="Foto de perfil" class="foto">
+        <div class="datos">
+          <h2>Christian Odir Renderos</h2>
+          <p><strong>Carnet:</strong> 20245266</p>
+          <h3>Biografía</h3>
+          <p>Mi nombre es Christian Renderos. Nací el 22 de febrero del 2006, tengo 19 años y estudio
+            Ingeniería de Software y Negocios Digitales en ESEN. Me interesa la robótica y el lado del back-end.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info materia -->
+    <section id="curso" class="card">
+      <h2>Info materia</h2>
+      <p><strong>Nombre:</strong> Desarrollo Web I</p>
+      <p><strong>Profesor:</strong> Guillermo Calderon</p>
+      <p><strong>Descripción:</strong> Es una asignatura práctica que introduce los fundamentos de la creación de sitios
+        y aplicaciones web mediante HTML, CSS y JavaScript. Permite desarrollar competencias en diseño, maquetación e
+        interactividad web, comprendiendo la arquitectura del front-end y aplicando buenas prácticas de programación y
+        diseño responsivo.</p>
+
+    </section>
+
+    <!-- Guías -->
+    <section id="guias" class="card">
+      <h2>Guías</h2>
+
+      <!-- Guía 1 -->
+      <article class="guia">
+        <div>
+          <h3>Guía 1 — HTML básico</h3>
+          <p>Construcción de páginas semánticas, tablas informativas y maquetación inicial. Se ponen en práctica
+            encabezados
+            jerárquicos, listas descriptivas, enlaces y recursos multimedia, destacando ejemplos como países, series y
+            estilos embebidos que refuerzan la consistencia de estructura.</p>
+          <ul>
+            <li><a href="20245266_Guia1/estilos_embebidos.html">Ejemplo 1</a></li>
+            <li><a href="20245266_Guia1/ejemplo2.html">Ejemplo 2</a></li>
+            <li><a href="20245266_Guia1/Paises.html">Ejemplo Países</a></li>
+            <li><a href="20245266_Guia1/HIMYM.html">Ejemplo Serie</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Guía 2 -->
+      <article class="guia">
+        <div>
+          <h3>Guía 2 — CSS y Flexbox</h3>
+          <p>Uso de Flexbox para organizar biografías, catálogos y tableros, reforzando jerarquía visual y selección de
+            tipografías. Se enfatiza la creación de contenedores alineados, tarjetas con sombras y combinaciones de
+            color
+            coherentes para producir composiciones limpias y equilibradas.</p>
+          <ul>
+            <li><a href="20245266_Guia2/biografia.html">Mi Biografía</a></li>
+            <li><a href="20245266_Guia2/peliculas.html">Películas</a></li>
+            <li><a href="20245266_Guia2/tablero.html">Tablero</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Guía 3 -->
+      <article class="guia">
+        <div>
+          <h3>Guía 3 — Grid Layout</h3>
+          <p>Aplicación de CSS Grid para crear cuadrículas responsivas, control de columnas y filas, y superposición de
+            capas
+            con efectos visuales. El trabajo abarca agencias de viaje, menús horizontales y estudios de color que
+            demuestran
+            la versatilidad del layout en diferentes contextos.</p>
+          <ul>
+            <li><a href="20245266_Guia3/oscares.html">Nominaciones Oscares</a></li>
+            <li><a href="20245266_Guia3/analisis.html">Ejemplo Z-index</a></li>
+            <li><a href="20245266_Guia3/index.html">Agencia de viajes</a></li>
+            <li><a href="20245266_Guia3/menu_horizontal.html">Ejemplo menu horizontal</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Guía 4 -->
+      <article class="guia">
+        <div>
+          <h3>Guía 4 — Responsive design</h3>
+          <p>Implementación avanzada de media queries, componentes adaptables y tipografías fluidas. Cada página incluye
+            versiones diferenciadas para dispositivos móviles, tabletas y escritorio, junto con un sistema de estilos
+            base que garantiza continuidad visual sin importar el ancho de la pantalla.</p>
+          <ul>
+            <li><a href="20245266_Guia4/index.html">Landing responsiva</a></li>
+            <li><a href="20245266_Guia4/mediaqueries.html">Media queries</a></li>
+
+          </ul>
+        </div>
+      </article>
+    </section>
+
+
+<section id="foda" class="card">
+  <h2>FODA sobre el desempeño</h2>
+  <div class="foda">
+    <div>
+      <h3>Fortalezas</h3>
+      <ul>
+        <li>Domino la estructuración semántica con HTML5 y el uso combinado de Flexbox y Grid para crear interfaces claras y ordenadas.</li>
+        <li>Poseo buena capacidad para comprender documentación técnica y aplicar nuevos conceptos en ejercicios prácticos.</li>
+        <li>Muestro atención al detalle en la coherencia visual, accesibilidad y organización del código.</li>
+        <li>Tengo disposición constante para aprender y mejorar la calidad del diseño y la experiencia de usuario.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Oportunidades</h3>
+      <ul>
+        <li>Ampliar el dominio de JavaScript para crear aplicaciones más dinámicas y funcionales.</li>
+        <li>Aplicar los conocimientos adquiridos en proyectos personales o colaborativos para fortalecer el portafolio profesional.</li>
+        <li>Explorar herramientas modernas del ecosistema front-end (como React, Tailwind o Bootstrap) para mejorar la productividad.</li>
+        <li>Participar en comunidades o retos de programación que fomenten la práctica y el intercambio de ideas.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Debilidades</h3>
+      <ul>
+        <li>Requiero mayor práctica en programación JavaScript, especialmente en manipulación del DOM y consumo de APIs.</li>
+        <li>Debo fortalecer la gestión del tiempo para equilibrar tareas académicas y proyectos de desarrollo.</li>
+        <li>Aún me falta experiencia en pruebas de compatibilidad y optimización para distintos dispositivos y navegadores.</li>
+        <li>Podría mejorar la documentación y comentarios dentro del código para facilitar el trabajo en equipo.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Amenazas</h3>
+      <ul>
+        <li>La rápida evolución de las tecnologías web exige actualización constante para mantenerse competitivo.</li>
+        <li>La alta competencia en el campo del desarrollo web puede dificultar la inserción laboral sin experiencia práctica sólida.</li>
+        <li>La alta demanda de especialización en frameworks modernos puede generar presión en etapas tempranas de aprendizaje.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <footer class="foot">
+    <p>Portafolio estudiantil — Desarrollo Web I</p>
+  </footer>
+
 </body>
+
 </html>

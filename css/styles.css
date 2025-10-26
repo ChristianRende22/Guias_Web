@@ -1,0 +1,237 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 16px auto;
+  padding: 0 12px;
+}
+
+/* === HEADER Y NAV === */
+.top {
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 12px;
+  text-align: center;
+}
+
+.top h1 {
+  margin: 0 0 8px 0;
+  font-size: 1.4rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tabs a {
+  padding: 6px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #005fa3;
+  background: #f5faff;
+}
+
+.tabs a:hover {
+  background: #e9f4ff;
+}
+
+/* === TARJETAS  === */
+.card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 14px;
+  margin: 14px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.foto {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #ccc;
+  background: #f0f0f0;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.datos {
+  flex: 1;
+}
+
+.datos h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.6rem;
+}
+
+.datos h3 {
+  margin: 12px 0 6px 0;
+  font-size: 1.1rem;
+  
+}
+
+/* === GUÍAS === */
+.guia {
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+.guia:first-of-type {
+  border-top: 0;
+}
+
+.guia h3 {
+  margin: 0 0 4px 0;
+}
+
+.guia p {
+  margin: 0 0 6px 0;
+}
+
+.guia ul {
+  margin-top: 6px;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.guia ul li {
+  margin-bottom: 3px;
+}
+
+.guia ul a {
+  color: #005fa3;
+  text-decoration: none;
+}
+
+.guia ul a:hover {
+  text-decoration: underline;
+  color: #0077cc;
+}
+
+/* === FODA === */
+.foda {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+
+.foda > div {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 10px;
+  background: #fcfdff;
+}
+
+.foda h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+/* === FOOTER === */
+.foot {
+  text-align: center;
+  padding: 18px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 900px) {
+  .wrap {
+    margin: 16px;
+    padding: 0 18px;
+  }
+
+  .top h1 {
+    font-size: 1.25rem;
+  }
+
+  .perfil {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .datos {
+    flex-basis: 260px;
+  }
+
+  .foto {
+    width: 240px;
+    height: 240px;
+  }
+
+  .foda {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .wrap {
+    margin: 12px;
+    padding: 0 12px;
+  }
+
+  .top {
+    padding: 16px 12px;
+  }
+
+  .top h1 {
+    font-size: 1.1rem;
+  }
+
+  .tabs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tabs a {
+    text-align: center;
+  }
+
+  .perfil {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .foto {
+    width: 80%;
+    max-width: 260px;
+    height: auto;
+  }
+
+  .datos {
+    flex-basis: auto;
+  }
+
+  .datos h2 {
+    font-size: 1.4rem;
+  }
+
+  .foda {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
